@@ -1,5 +1,5 @@
 function ShowCourses() {
-    fetch("https://backend-deploy-1-0pp6.onrender.com/course")
+    fetch("https://backend-deploy-9th1.onrender.com/course")
     .then((response) => response.json())
     .then((courses) => {
         const datatable = document.getElementById("coursetable");
@@ -20,7 +20,7 @@ function ShowCourses() {
 }
 
 function EndrolledStundets() {
-    fetch("https://backend-deploy-1-0pp6.onrender.com/enrolled")
+    fetch("https://backend-deploy-9th1.onrender.com/enrolled")
     .then((response) => response.json())
     .then((students) => {
         const datatable = document.getElementById("stundenttable");
